@@ -20,6 +20,11 @@
 
 <a href="https://github.com/adaves1/keygen/pulse">
 <img alt="Last Updated" src="https://img.shields.io/github/last-commit/adaves1/keygen?style=flat&color=e06c75&label="> </a>
+
+<img src="https://img.shields.io/github/languages/code-size/adaves1/keygen" alt="GitHub code size in bytes"/>
+
+<img src="https://img.shields.io/github/commit-activity/w/adaves1/keygen" alt="GitHub commit activity"/>
+
 </p>
 
 <p align="center">
