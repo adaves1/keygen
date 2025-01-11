@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="LOGO.png" alt="Logo">
+  <img src="logo.png" alt="Logo">
 </p>
 
 <h1 align="center">KeyGen</h1>
