@@ -115,6 +115,16 @@ class Bases:
         key = ''.join(random.choice(characters) for _ in range(length))
         return key
 
+    def oct_key(length=5):
+        characters = "01234567"
+        key = ''.join(random.choice(characters) for _ in range(length))
+        return key
+
+    def octal_key(length=5):
+        characters = "01234567"
+        key = ''.join(random.choice(characters) for _ in range(length))
+        return key
+
     def no_key(length=5):
         characters = "012345678"
         key = ''.join(random.choice(characters) for _ in range(length))
@@ -195,16 +205,30 @@ class Bases:
         key = ''.join(random.choice(characters) for _ in range(length))
         return key
 
-    def oct_key(length=5):
-        characters = "01234567"
+    # From Base16 to Base32. The middle ones are gonna be added later
+
+    def duotriges_key(length= 5):
+        characters = "0123456789ABCDEFGHIJKLMNOPQRSTUV"
         key = ''.join(random.choice(characters) for _ in range(length))
         return key
 
-    def octal_key(length=5):
-        characters = "01234567"
+    def duotrigesimal_key(length= 5):
+        characters = "0123456789ABCDEFGHIJKLMNOPQRSTUV"
         key = ''.join(random.choice(characters) for _ in range(length))
         return key
 
+    #[^A-Za-z0-9+/=]
+
+    def sexaquarterges_key(length= 5):
+        characters = r"#[]^ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/="
+        key = ''.join(random.choice(characters) for _ in range(length))
+        return key
+
+    def sexaquartergesimal_key(length= 5):
+        characters = r"#[]^ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/="
+        key = ''.join(random.choice(characters) for _ in range(length))
+        return key
+    
 def mix_key(length=20):
     characters = r"abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789!#$%&'()*+,-./:;<=>?@[\]^_`{|}~"
     key = ''.join(random.choice(characters) for _ in range(length))
